@@ -2,6 +2,8 @@
 MRHG (Modular and Context-aware Honeyword Generation) is an innovative framework that leverages multiple password generation strategies and adapts dynamically based on recognized password patterns. It uses advanced models, including Large Language Models (LLMs), for intelligent decision-making in generating honeywords, making it robust against various password-guessing attacks.
 The system can recognize different password types, such as PII-based, weak, and default passwords, and generate honeywords accordingly. Additionally, it incorporates a Retrieval-Augmented Generation (RAG) strategy to improve password similarity, further enhancing its ability to thwart attackers.
 
+[Fig1 framwork.pdf](https://github.com/user-attachments/files/19628722/Fig1.framwork.pdf)
+
 ## 📌 Key Features
 - Dynamic Defense Strategies: MRHG recognizes and adapts to different password patterns including PII-based, weak, and default passwords.
 - Intelligent Password Recognition: Uses LLMs to detect whether a password is weak, strong, or linked to PII data.
@@ -114,6 +116,8 @@ MRHG follows a modular architecture where each password type (PII-based, weak, d
      
 3. Result:
    - The generated honeywords are returned, including their explanation and the type of strategy used.
+
+[fig12 illustrate.pdf](https://github.com/user-attachments/files/19628731/fig12.illustrate.pdf)
 
 ## 🤝 Contributing
 We welcome contributions from the community! To contribute:
